@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/contact.css">
+    <script src="signup.js" defer></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo">CENFLIX</h1>
+                <ul class="nav-items">
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT US</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <div class="signup-form">
+            <h1 class="form-heading">Contact Us</h1>
+            <p>Please Fill This Form To Contact Us!</p><hr style="border: 0.1px solid black;">
+            <form action="backend.php" name="su-form" method="GET">
+                <input type="text" name="FName" placeholder="First Name">
+                <input type="text" name="LName" placeholder="Last Name"><br>
+                <input type="email" name="Email" placeholder="Email" class="i-box"><br>
+                <input type="text" name="cnic" placeholder="Cnic" class="i-box"><br>
+                <input type="number" name="phoneno" placeholder="Phone No" class="i-box"><br>
+                <textarea name="text-area" id="" cols="46" rows="5" placeholder="Write Your Query Here..."></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
